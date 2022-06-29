@@ -1,0 +1,190 @@
+* { box-sizing: border-box;
+   outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    
+    scroll-behavior: smooth;
+    scroll-padding:80px;}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+figure{
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(img/fondo2.jfif);
+    color: black;
+    }
+ h1{ font-family: 'Fjalla One', sans-serif;}
+.contenedor {
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    margin: auto;
+}
+
+nav{
+    background: url(img/fondo1.jpg) left top;
+    height: 80px; 
+    padding: 1%;
+    position: fixed;
+    width: 100%; 
+    z-index: 200000;
+    top:0;
+    left: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    
+}
+.columna-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    display:block;
+   
+}
+.logo img{ 
+    max-width: 100%;
+    height: auto;
+}
+.menu{
+    width: 600px;    
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+.menu li a{
+    color:black;
+   font-size: 20px;
+}
+
+header { height: 450px;
+    background-position: 220px 350px, left top;
+    background-image: url(img/fondo2.jfif);
+    background-repeat: no-repeat;
+  }
+  header p {font-size: 50px;
+text-align: center;
+padding-top: 100px;}
+
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+
+#sobre-nosotros {background-color: #6867AC;}
+  
+
+.nombre-1 {text-align: center;
+padding-right: 100px;
+padding-top: 50px;}
+
+ .columna-1 p {display:block;
+    text-align:right;
+    padding-right: 70px;
+    padding-top: 50px;
+    float:left;
+    width:60%;
+   }
+   .nombre-2 {text-align: center;
+    padding-left: 100px;
+    padding-top: 50px;}
+
+   .yo {
+    float:right;}
+    .persona {
+        float: left;
+    display: block;}
+.columna-3 p {display:block;
+    text-align:left;
+ padding-right: 70px;
+    padding-top: 50px;
+    float:right;
+    width:60%;
+  }
+
+.boton{
+    display:inline-block;
+    width: 220px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;    
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 6px;
+    }
+.redes {
+    color:rgb(216, 186, 243);
+    border: 2px solid;
+   float: right;
+}
+#servicios {background-color: #A267AC;
+padding-top: 40px;}
+
+.imagenes { padding-top: 20px;
+    display: flex;
+padding-left: 80px;}
+#portfolio {background-color: #CE7BB0;}
+
+.trabajos{ padding-left: 50px;
+    padding-top: 80px;
+    display:inline-flex
+  
+}
+.trabajos p { padding-right: 20px;
+    padding-left: 20px;
+    text-align: right;
+    padding-top: 100px;
+}
+ 
+.fotomontaje { padding-left: 40px;
+    padding-top: 20px;
+    display:flex}
+.fotomontaje p { padding-right: 20px;
+    padding-left: 10px;
+    text-align: right;
+    padding-top: 100px;
+}
+
+.dibujo { padding-left: 60px;
+    padding-top: 20px;
+    display:flex
+  }
+.dibujo p { padding-right: 20px;
+    padding-left: 30px;
+    text-align: right;
+    padding-top: 150px;
+}
+
+#inspiracion {
+    background-color: #FFBCD1;}
+.columna-4 h2{ padding-bottom: 30px;}
+.columna-4 p{display:flex;
+    text-align:left;
+    padding-right: 70px;
+    padding-top: 120px;
+    float:right;
+    width:50%;}
+
+footer { padding-top: 30px;}
+
+footer a {padding-left:10px;
+text-align: center;}
+
